@@ -15,11 +15,11 @@ button.active{background:#2e7d32;color:#fff;font-weight:bold}
     border-left: 6px solid #2e7d32;
     border-radius: 8px;
     display: grid;
-    grid-template-columns: 80px 3fr 3fr;
+    grid-template-columns: 120px 1fr 1fr;
     align-items: center; /* 垂直置中 */
     gap: 15px;
     justify-content: space-between; /* 文字左、圖片右 */
-    min-height: 100px;        /* 確保卡片有足夠高度 */
+    min-height: 120px;        /* 確保卡片有足夠高度 */
 }
 
 .card img {
@@ -48,12 +48,12 @@ button.active{background:#2e7d32;color:#fff;font-weight:bold}
 /* 手機版細節調整 */
 @media (max-width: 480px) {
     .card {
-        grid-template-columns: 70px 3fr 3fr;
+        grid-template-columns: 80px 1fr 1fr;
         padding: 12px;
     }
     .card img {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     object-fit: cover;
     border-radius: 6px;
     }
